@@ -5,7 +5,10 @@
     <constraints>
       <xy x="20" y="20" width="505" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-8645632"/>
+      <foreground color="-6107"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="907f2" class="javax.swing.JLabel">
@@ -14,6 +17,7 @@
         </constraints>
         <properties>
           <font size="36"/>
+          <foreground color="-6107"/>
           <text value="Enter radius:"/>
         </properties>
       </component>
@@ -33,6 +37,7 @@
         </constraints>
         <properties>
           <font size="36"/>
+          <foreground color="-6107"/>
           <text value="AREA"/>
         </properties>
       </component>
@@ -53,6 +58,7 @@
         </constraints>
         <properties>
           <font size="36"/>
+          <foreground color="-6107"/>
           <text value="CIRCUMFERENCE"/>
         </properties>
       </component>

@@ -5,13 +5,13 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class CircleGUI extends JFrame{
-    private JPanel pnlMain;
+    JPanel pnlMain;
     private JTextField tfRadius;
     private JTextField tfArea;
     private JTextField tfCircumference;
     private JButton btnClear;
     private JButton btnCompute;
-    private CircleGUI(){
+    CircleGUI(){
         tfRadius.addKeyListener(new KeyListener() {
             @Override
             public void keyTyped(KeyEvent e) {
@@ -53,11 +53,7 @@ public class CircleGUI extends JFrame{
         tfArea.setText(String.format("%.2f", Math.PI * (r*r)));
         tfCircumference.setText(String.format("%.2f", Math.PI * r * 2));
     }
-    public static void main(String[] args) {
-        CircleGUI app = new CircleGUI();
-        app.setContentPane(app.pnlMain);
-        app.setSize(700, 700);
-        app.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        app.setVisible(true);
-    }
+//    public static void main(String[] args) {
+//
+//    }
 }
