@@ -7,6 +7,6 @@ public class Main {
         app.setSize(700, 700);
         app.setDefaultCloseOperation(EXIT_ON_CLOSE);
         app.setVisible(true);
-
+        //just acomment
     }
 }
